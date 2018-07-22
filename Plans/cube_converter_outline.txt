@@ -1,0 +1,149 @@
+cube_converter
+____________________________
+Pseudocode plan for file
+Variable names are in (name - type) the first time they are mentioned
+____________________________
+
+#Initialize
+
+define dictionary for custom selection
+    set name
+    set code
+    set date
+    et type
+
+
+Use settings.py to initialize settings
+    
+    User option variables:
+    
+    (forge_folder_path - string) - path to forge folder. Default based on OS
+    (cube_folder_path - string) - path to cube within forge
+    (draft_folder_path - string) - path to draft within forge
+    (sealed_folder_path - string) - path to sealed within forge
+    (editions_folder_path - string) - path to editions within forge
+
+    (default_sort_method - integer)
+    (want_draft - boolean)
+    (want_sealed - boolean)
+    (want_automove - boolean)
+    (not_found_action - integer)
+    
+    Class sealed_options
+        (want_sealed_file - boolean)
+        (IgnoreRarity - string)
+        (LandSetCode - string)
+        (Booster - string)
+        (NumPacks - string)
+        (card_count - integer)
+    Class draft_options
+        (want_draft_file - string)
+        (Singleton - string)
+        (Booster - string)
+        (NumPacks - string)
+        (LandSetCode - string)
+        (card_count - integer)
+
+    Created constants for use in code:
+        (num_players - integer) = 8
+        (default_oldest_year) = 9999
+        (default_oldest_month) = 99
+        (default_oldest_day) = 99
+        (default_newest_date) = 0000-00-00
+        (default_newest_month) = 00
+        (default_newest_day) = 00
+
+
+
+
+If no forge location is saved:
+    prompt user for location
+    use settings.py to create folder paths
+
+Get input file location from user
+Store input file name into (cube_name)
+Store input file path into (file_path)
+Determine input file type (input file)
+
+While open input file
+    read file into a variable (input_text)
+
+Load output header information into (output_text - list of strings)
+    -each entry in this array will be a line for the output
+
+
+
+for each line in input file:
+
+    #Prep line for use
+    strip line of whitespace
+    if Aether or Æther is in line:
+        replace with AEther
+
+    #Get card name and quantity
+    if input is simple text:
+        pull (card_name - string) out of line
+        make (output_line - string) "1 " + card_name + "|"
+    if input is csv:
+        pull card_name out of line
+        make output_line "1 " + card_name + "|"
+    if input is salvation:
+        pull card_name out of line
+        pull card_quantity out of line
+        make output_line card_quantity + " " + card_name + "|"
+    if input is custom:
+        if line starts with a digit:
+            pull card_quantity out of line
+            pull card_name out of line
+        else
+            set card_name to line
+            set card_quantity to 1
+        make output_line card_quantity + " " + card_name + "|"
+
+    #Set search flags and variables as needed
+    set (card_found - boolean) to false
+    set (premium_found - boolean) to false
+    set (date_found - boolean) to false
+
+    if sort method is oldest:    
+        set (best_day, best_month, best_year - strings) to default oldest values
+    if sort method is newest:
+        set best_day, best_month, best_year to default newest values
+    if sort method is custom (is this needed?)
+        make (available_sets - array of custom selection dictionaries)
+
+    for each file in editions folder:
+
+        #Check if card is in file
+        if card_name in file:
+            card_found = true
+            pull (current_set_code - string) from file
+            pull (current_set_date - string) from file
+            pull (current_set_type - string) from file
+
+            if sort method is fast:
+                (set_code - string) = current_set_code
+                break
+            if sort is oldest:
+                pull (current_set_year, current_set_month, current_set_day - strings) from current_set_date
+                if no day is in current_set_date:
+                    current_set_date = default_oldest_day
+                if best_year > current_set_year:
+                    if best_month > current_set_month:
+                        if best_day > current_set_day:
+                            date_found = true
+            if sort is newest:
+                pull (current_set_year, current_set_month, current_set_day - strings) from current_set_date
+                if no day is in current_set_date:
+                    current_set_date = default_newest_day
+                if best_year < current_set_year:
+                    if best_month < current_set_month:
+                        if best_day < current_set_day:
+                            date_found = true
+            if sort method is custom:
+                pull (current_set_name - string) from file
+                make dictionary item with current set values
+                append to available_sets
+
+
+

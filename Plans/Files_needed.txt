@@ -4,10 +4,17 @@ settings.py:
     -check if there is a saved file
     -if yes, load saved json settings (can be previous run or user default)
     -if no, load default settings and ask for forge folder
-
+    
     -Defaults needed:
-        -all draft and sealed options
+        -classes for all draft and sealed options
         -oldest and newest dates
+        -number of players
+        -paths to cube, draft, sealed and editions folder within forge
+        -list of set types that count as premium
+
+    -Functions needed:
+        -when booster string is changed, count number of cards requested * number of players
+        -use forge path and default cube, draft, sealed and editions to create file paths
 
 interface.py:
     -draw and handle interface (implemented later)
