@@ -1,0 +1,25 @@
+Files needed
+
+settings.py:
+    -check if there is a saved file
+    -if yes, load saved json settings (can be previous run or user default)
+    -if no, load default settings and ask for forge folder
+
+    -Defaults needed:
+        -all draft and sealed options
+        -oldest and newest dates
+
+interface.py:
+    -draw and handle interface (implemented later)
+
+cube_converter.py: (main file)
+    -ask user for input file
+    -read in file and determine type
+    -create header text for output file
+    -read input line by line
+        -get name of card on each line based on input file type
+        -find set for card that matches chosed algorithm
+        -save card name and set for output
+    -write out dck file and draft/sealed if wanted
+    -move to forge folder if wanted
+    -save user settings for next time if a default hasnt been picked
