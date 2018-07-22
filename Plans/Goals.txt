@@ -38,7 +38,9 @@ Need from user:
             -LandSetCode
     -Automove to forge folders yes/no
     -If card isnt found do what?
+        -Allow user to fix card spelling
         -Print XXX for set code
         -Leave out of output
         -Allow user to input a set code
         -Ask user each time
+    -Save all options as default for next time?
