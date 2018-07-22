@@ -23,11 +23,12 @@ Use settings.py to initialize settings
     (sealed_folder_path - string) - path to sealed within forge
     (editions_folder_path - string) - path to editions within forge
 
-    (default_sort_method - integer)
+    (sort_method - integer)
     (want_draft - boolean)
     (want_sealed - boolean)
     (want_automove - boolean)
     (not_found_action - integer)
+    (not_found_ask_each_time - boolean)
     
     Class sealed_options
         (want_sealed_file - boolean)
@@ -46,12 +47,13 @@ Use settings.py to initialize settings
 
     Created constants for use in code:
         (num_players - integer) = 8
-        (default_oldest_year) = 9999
-        (default_oldest_month) = 99
-        (default_oldest_day) = 99
-        (default_newest_date) = 0000-00-00
-        (default_newest_month) = 00
-        (default_newest_day) = 00
+        (default_oldest_year - string) = 9999
+        (default_oldest_month - string) = 99
+        (default_oldest_day - string) = 99
+        (default_newest_date - string) = 0000-00-00
+        (default_newest_month - string) = 00
+        (default_newest_day - string) = 00
+        (list_of_premium_types - list of strings)
 
 
 
@@ -61,9 +63,12 @@ If no forge location is saved:
     use settings.py to create folder paths
 
 Get input file location from user
-Store input file name into (cube_name)
-Store input file path into (file_path)
-Determine input file type (input file)
+Store input file name into (cube_name - string)
+Store input file path into (file_path - string)
+Determine input file type (input_file_type - string)
+
+Display cube_name, file_path and input_file_type to user
+
 
 While open input file
     read file into a variable (input_text)
@@ -71,9 +76,11 @@ While open input file
 Load output header information into (output_text - list of strings)
     -each entry in this array will be a line for the output
 
-
+(total_card_pool - integer) = 0
 
 for each line in input file:
+
+    total_card_pool += 1
 
     #Prep line for use
     strip line of whitespace
@@ -81,17 +88,23 @@ for each line in input file:
         replace with AEther
 
     #Get card name and quantity
-    if input is simple text:
+    if input_file_type is simple text:
         pull (card_name - string) out of line
         make (output_line - string) "1 " + card_name + "|"
-    if input is csv:
+    elif input_file_type is csv:
         pull card_name out of line
         make output_line "1 " + card_name + "|"
-    if input is salvation:
-        pull card_name out of line
-        pull card_quantity out of line
-        make output_line card_quantity + " " + card_name + "|"
-    if input is custom:
+    elif input_file_type is salvation:
+        if line is a card line:
+            pull card_name out of line
+            pull card_quantity out of line
+            total_card_pool += card_quantity - 1
+            make output_line card_quantity + " " + card_name + "|"
+        else
+            #ignore line and go to next
+            total_card_pool -= 1
+            continue
+    else input_file_type is custom:
         if line starts with a digit:
             pull card_quantity out of line
             pull card_name out of line
@@ -102,17 +115,17 @@ for each line in input file:
 
     #Set search flags and variables as needed
     set (card_found - boolean) to false
-    set (premium_found - boolean) to false
-    set (date_found - boolean) to false
 
     if sort method is oldest:    
         set (best_day, best_month, best_year - strings) to default oldest values
-    if sort method is newest:
+    elif sort method is newest:
         set best_day, best_month, best_year to default newest values
-    if sort method is custom (is this needed?)
+    elif sort method is custom
         make (available_sets - array of custom selection dictionaries)
 
     for each file in editions folder:
+
+        set (premium_set - boolean) to false
 
         #Check if card is in file
         if card_name in file:
@@ -121,29 +134,110 @@ for each line in input file:
             pull (current_set_date - string) from file
             pull (current_set_type - string) from file
 
-            if sort method is fast:
-                (set_code - string) = current_set_code
+
+            if sort_method is fast:
+                best_set_code = current_set_code
                 break
-            if sort is oldest:
+            if sort_method is oldest:
                 pull (current_set_year, current_set_month, current_set_day - strings) from current_set_date
                 if no day is in current_set_date:
                     current_set_date = default_oldest_day
                 if best_year > current_set_year:
                     if best_month > current_set_month:
                         if best_day > current_set_day:
-                            date_found = true
-            if sort is newest:
+                            best_set_code = current_set_code
+            elif sort_method is newest:
                 pull (current_set_year, current_set_month, current_set_day - strings) from current_set_date
                 if no day is in current_set_date:
                     current_set_date = default_newest_day
                 if best_year < current_set_year:
                     if best_month < current_set_month:
                         if best_day < current_set_day:
-                            date_found = true
-            if sort method is custom:
+                            best_set_code = current_set_code
+            elif sort_method method is custom:
                 pull (current_set_name - string) from file
                 make dictionary item with current set values
                 append to available_sets
 
+    #After going through all files (or found a match if fast method)
+    #Now check if a match has been found and create output accordingly
+
+    if card_found:
+        if sort_method custom:
+            display list of found set codes with set name, date and type
+            prompt user to select one
+            best_set_code = set code that user selects
+
+            make output_line = output_line + best_set_code
+            append output_line to output_text
+    else:
+        if not_found_ask_each_time:
+            prompt user to select an option
+            set not_found_action to selected option
+
+        if not_found_action is not ignore line:
+            if not_found_action is Print XXX for set code:
+                best_set_code = XXX
+            elif not_found_action is Allow user to input a set code:
+                prompt user for a set code
+                best_set_code = user input
+
+            make output_line = output_line + best_set_code
+            append output_line to output_text
+
+#After all lines have been processed, create desired outputs and move files if requested
+
+open output file for dck file:
+    for each line in output_text:
+        write to file
+display .dck file name to user
+
+#If applicable, create .draft and .sealed files
+
+if want_draft:
+    if total_card_pool >= draft.card_count:
+        print warning message
+        prompt user to change booster size or number of packs
+        if user wants to change booster size:
+            display largest possible booster size
+            prompt and record # of mythics, rares, uncommons and commons
+        elif user wants to change number of packs:
+            display largest possible number of packs
+            prompt and record # of packs
+
+    open a output file:
+        write all draft class information to file
+
+    display .draft file name to user
+
+if want_sealed:
+    if total_card_pool >= sealed.card_count:
+        print warning message
+        prompt user to change booster size or number of packs
+        if user wants to change booster size:
+            display largest possible booster size
+            prompt and record # of mythics, rares, uncommons and commons
+        elif user wants to change number of packs:
+            display largest possible number of packs
+            prompt and record # of packs
+            
+    open a output file:
+        write all sealed class information to file
+
+    display .sealed file name to user
+
+if want_automove:
+    move .dck file to cube_folder_path
+    tell user where file was moved to
+    if want_draft:
+        move .draft file to draft_folder_path
+        tell user where file was moved to
+    if want_sealed:
+        move .sealed file to sealed_folder_path
+        tell user where file was moved to
+else:
+    tell user all files are at file_path
 
 
+#Final cleanup
+Tell user total number of cards in cube and time taken to search

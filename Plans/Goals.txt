@@ -19,7 +19,7 @@ Need from user:
         -Oldest date
         -Newest date
         -Select from list of options
-    -Prefer, ignore or dont care about premium versions
+    -Prefer, ignore or dont care about premium versions (implimented later)
     -Do they want a sealed file
         -If yes, values for sealed file
             -Name
@@ -38,7 +38,7 @@ Need from user:
             -LandSetCode
     -Automove to forge folders yes/no
     -If card isnt found do what?
-        -Allow user to fix card spelling
+        -Allow user to fix card spelling (impliment later)
         -Print XXX for set code
         -Leave out of output
         -Allow user to input a set code
