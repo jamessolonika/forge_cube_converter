@@ -1,0 +1,44 @@
+Goals:
+
+Read in a cube file from cubetutor.com
+    -plain text
+    -csv
+    -mtg salvation
+    -custom user created file
+
+Output a mtg forge cube file
+    -.dck
+    -.draft (if wanted)
+    -.sealed (if wanted)
+
+Need from user:
+    -Location of input file
+    -Location of forge folder
+    -What sort method to use
+        -Fast
+        -Oldest date
+        -Newest date
+        -Select from list of options
+    -Prefer, ignore or dont care about premium versions
+    -Do they want a sealed file
+        -If yes, values for sealed file
+            -Name
+            -DeckFile
+            -IgnoreRarity
+            -LandSetCode
+            -Booster
+            -NumPacks
+    -Do they want a draft file
+        -If yes, values for draft file
+            -Name
+            -DeckFile
+            -Singleton
+            -Booster:
+            -NumPacks
+            -LandSetCode
+    -Automove to forge folders yes/no
+    -If card isnt found do what?
+        -Print XXX for set code
+        -Leave out of output
+        -Allow user to input a set code
+        -Ask user each time
