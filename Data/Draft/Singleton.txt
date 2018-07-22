@@ -1,0 +1,5 @@
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/cube_juzamjedi.draft
+Length:  1 
+
+
+True

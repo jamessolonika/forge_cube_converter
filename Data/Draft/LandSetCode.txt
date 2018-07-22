@@ -1,0 +1,43 @@
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/MTGO Legacy Cube March 2015 (600 cards).draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/Eric Klug's Pro Tour Cube.draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/MTGO Legacy Cube September 2016 (600 cards).draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/Mono Blue Cube.draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/Card Kingdom Starter Cube v3.draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/Oldschool 93-94 Magic Unpowered 400 Card Cube.draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/MTGO Vintage Cube 2014.draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/Legendary Cube (598 cards).draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/MTGO Vintage Cube 2016.draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/Guillaume Matignon's Jenny's-Johnny's Cube.draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/MTGO Vintage Cube June 2017.draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/Modern Cube 2017.draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/MTGO Vintage Cube November 2016.draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/MTGO Vintage Cube 2013.draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/www.mtgcube.com (502 cards).draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/MTGO Vintage Cube June 2016.draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/The Peasant's Toolbox.draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/Jospeh Vasoli's Peasant Cube.draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/MTGO Legacy Cube September 2015 (600 cards).draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/MTGO Vintage Cube 2015.draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/Ben's Cube (720 cards).draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/Jim Davis's Cube (469 cards).draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/Sam Black's No Search Cube.draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/MTGO Legacy Cube January 2017 (600 cards).draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/Oldschool 93-94 Magic Powered 360 Card Cube.draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/MTGO Legacy Cube April 2017 (600 cards).draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/MTGO Legacy Cube January 2016 (600 cards).draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/MTGO Legacy Cube (600 cards).draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/MTGO Legacy Cube February 2018 (600 cards).draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/Timothee Simonot's Twisted Color Pie Cube.draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/MTGO Vintage Cube December 2017.draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/Cube Tutor 360 Pauper.draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/Cube Tutor 720.draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/MTGO Cube March 2014.draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/Legendary Cube April 2016 (566 cards).draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/Adam Styborkski's Pauper Cube.draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/Oldschool 93-94 Magic Full Set 878 Card Cube.draft
+Length:  3 
+
+
+BFZ
+M11
+RTR

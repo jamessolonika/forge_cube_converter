@@ -1,0 +1,5 @@
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/Frontier.draft
+Length:  6 
+
+
+['Name:', 'DeckFile:', 'Singleton:', 'Booster:', 'NumPacks:', 'LandSetCode:']

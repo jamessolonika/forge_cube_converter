@@ -1,0 +1,7 @@
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/cube_skiera.draft
+Error in:  /Applications/forge-gui-desktop-1.6.11/res/draft/cube_juzamjedi.draft
+Length:  2 
+
+
+ 3
+3

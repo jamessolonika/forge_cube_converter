@@ -1,0 +1,7 @@
+Name:__all_cards_test__
+DeckFile:__all_cards_test__
+IgnoreRarity:True
+LandSetCode:M11
+
+Booster: 5 Common, 5 Uncommon, 5 Rare, 1 Mythic                 
+NumPacks:3

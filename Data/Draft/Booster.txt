@@ -1,0 +1,8 @@
+Length:  5 
+
+
+ 15 Any
+ 15 Any  
+ 16 Any
+ 5 Rare, 1 Mythic, 5 Common, 5 Uncommon
+15 Any
