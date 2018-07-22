@@ -1,0 +1,648 @@
+[DECK=cube from CubeTutor.com]
+
+White Creature
+1x Kytheon, Hero of Akros
+1x Mother of Runes
+1x Skymarcher Aspirant
+1x Student of Warfare
+1x Adanto Vanguard
+1x Knight of the White Orchid
+1x Leonin Relic-Warder
+1x Selfless Spirit
+1x Soulfire Grand Master
+1x Stoneforge Mystic
+1x Thalia, Guardian of Thraben
+1x Wall of Omens
+1x Banisher Priest
+1x Benalish Marshal
+1x Blade Splicer
+1x Brimaz, King of Oreskos
+1x Fiend Hunter
+1x Flickerwisp
+1x Mirran Crusader
+1x Monastery Mentor
+1x Recruiter of the Guard
+1x Silverblade Paladin
+1x Emeria Angel
+1x Hero of Bladehold
+1x Linvala, Keeper of Silence
+1x Restoration Angel
+1x Angel of Invention
+1x Angel of Sanctions
+1x Archangel of Thune
+1x Baneslayer Angel
+1x Lyra Dawnbringer
+1x Reveillark
+1x Sun Titan
+1x Angel of Serenity
+1x Elesh Norn, Grand Cenobite
+1x Iona, Shield of Emeria
+
+White Planeswalker
+1x Gideon of the Trials
+1x Elspeth, Knight-Errant
+1x Gideon, Ally of Zendikar
+1x Gideon Jura
+1x Elspeth, Sun's Champion
+
+White Artifact Creature
+1x Porcelain Legionnaire
+
+White Instant
+1x Enlightened Tutor
+1x Mana Tithe
+1x Path to Exile
+1x Swords to Plowshares
+1x Disenchant
+1x Unexpectedly Absent
+
+White Sorcery
+1x Balance
+1x Declaration in Stone
+1x Council's Judgment
+1x Lingering Souls
+1x Spectral Procession
+1x Timely Reinforcements
+1x Armageddon
+1x Day of Judgment
+1x Ravages of War
+1x Wrath of God
+
+White Enchantment
+1x Land Tax
+1x Legion's Landing
+1x Honor of the Pure
+1x Banishing Light
+1x History of Benalia
+1x Oblivion Ring
+1x Faith's Fetters
+1x Leyline of Sanctity
+1x Moat
+1x Parallax Wave
+
+White Enchantment Artifact
+1x Spear of Heliod
+
+White Land
+1x Karakas
+
+Blue Creature
+1x Delver of Secrets
+1x Augur of Bolas
+1x Jace, Vryn's Prodigy
+1x Looter il-Kor
+1x Phantasmal Image
+1x Snapcaster Mage
+1x Thing in the Ice
+1x Deceiver Exarch
+1x Pestermite
+1x Trinket Mage
+1x True-Name Nemesis
+1x Vendilion Clique
+1x Glen Elendra Archmage
+1x Sower of Temptation
+1x Venser, Shaper Savant
+1x Mulldrifter
+1x Riftwing Cloudskate
+1x Consecrated Sphinx
+1x Frost Titan
+1x Palinchron
+
+Blue Planeswalker
+1x Jace Beleren
+1x Jace, Architect of Thought
+1x Jace, the Mind Sculptor
+1x Tamiyo, the Moon Sage
+1x Tezzeret the Seeker
+
+Blue Artifact Creature
+1x Phyrexian Metamorph
+1x Torrential Gearhulk
+1x Inkwell Leviathan
+
+Blue Instant
+1x Ancestral Recall
+1x Brainstorm
+1x Force Spike
+1x High Tide
+1x Mystical Tutor
+1x Spell Pierce
+1x Blink of an Eye
+1x Brain Freeze
+1x Counterspell
+1x Daze
+1x Impulse
+1x Mana Drain
+1x Mana Leak
+1x Remand
+1x Frantic Search
+1x Thirst for Knowledge
+1x Commit // Memory
+1x Cryptic Command
+1x Fact or Fiction
+1x Gifts Ungiven
+1x Turnabout
+1x Force of Will
+1x Gush
+1x Mystic Confluence
+1x Repeal
+1x Dig Through Time
+
+Blue Sorcery
+1x Ancestral Vision
+1x Gitaxian Probe
+1x Ponder
+1x Preordain
+1x Chart a Course
+1x Time Walk
+1x Compulsive Research
+1x Show and Tell
+1x Timetwister
+1x Tinker
+1x Bribery
+1x Mind's Desire
+1x Time Spiral
+1x Upheaval
+1x Treasure Cruise
+
+Blue Enchantment
+1x Search for Azcanta
+1x Control Magic
+1x Opposition
+1x Treachery
+
+Blue Land
+1x Shelldock Isle
+1x Tolarian Academy
+
+Black Creature
+1x Putrid Imp
+1x Brain Maggot
+1x Dark Confidant
+1x Kitesail Freebooter
+1x Mesmeric Fiend
+1x Nezumi Graverobber
+1x Nezumi Shortfang
+1x Oona's Prowler
+1x Pack Rat
+1x Bone Shredder
+1x Hypnotic Specter
+1x Ophiomancer
+1x Vampire Nighthawk
+1x Braids, Cabal Minion
+1x Gonti, Lord of Luxury
+1x Nekrataal
+1x Ravenous Chupacabra
+1x Shriekmaw
+1x Demonlord Belzenlok
+1x Grave Titan
+1x Massacre Wurm
+1x Tasigur, the Golden Fang
+1x Sheoldred, Whispering One
+1x Griselbrand
+
+Black Planeswalker
+1x Liliana of the Veil
+1x Liliana, Death's Majesty
+
+Black Artifact Creature
+1x Noxious Gearhulk
+
+Black Instant
+1x Dark Ritual
+1x Entomb
+1x Fatal Push
+1x Vampiric Tutor
+1x Cabal Ritual
+1x Cast Down
+1x Go for the Throat
+1x Shallow Grave
+1x Ultimate Price
+1x Corpse Dance
+1x Dismember
+1x Hero's Downfall
+1x Makeshift Mannequin
+1x Vraska's Contempt
+1x Murderous Cut
+
+Black Sorcery
+1x Duress
+1x Imperial Seal
+1x Inquisition of Kozilek
+1x Reanimate
+1x Thoughtseize
+1x Demonic Tutor
+1x Exhume
+1x Hymn to Tourach
+1x Buried Alive
+1x Grim Tutor
+1x Painful Truths
+1x Toxic Deluge
+1x Yawgmoth's Will
+1x Damnation
+1x Tendrils of Agony
+1x Dark Petition
+1x Living Death
+1x Unburial Rites
+1x Mind Twist
+
+Black Enchantment
+1x Animate Dead
+1x Arguel's Blood Fast
+1x Bitterblossom
+1x Necromancy
+1x Necropotence
+1x Recurring Nightmare
+1x The Abyss
+1x Yawgmoth's Bargain
+
+Black Land
+1x Urborg, Tomb of Yawgmoth
+
+Red Creature
+1x Falkenrath Gorger
+1x Firedrinker Satyr
+1x Goblin Guide
+1x Goblin Welder
+1x Grim Lavamancer
+1x Jackal Pup
+1x Monastery Swiftspear
+1x Zurgo Bellstriker
+1x Abbot of Keral Keep
+1x Dire Fleet Daredevil
+1x Eidolon of the Great Revel
+1x Young Pyromancer
+1x Dualcaster Mage
+1x Goblin Chainwhirler
+1x Imperial Recruiter
+1x Magus of the Moon
+1x Manic Vandal
+1x Avalanche Riders
+1x Flametongue Kavu
+1x Hazoret the Fervent
+1x Hellrider
+1x Rekindling Phoenix
+1x Glorybringer
+1x Goblin Dark-Dwellers
+1x Kiki-Jiki, Mirror Breaker
+1x Siege-Gang Commander
+1x Stormbreath Dragon
+1x Thundermaw Hellkite
+1x Zealous Conscripts
+1x Inferno Titan
+
+Red Planeswalker
+1x Chandra, Pyromaster
+1x Chandra, Torch of Defiance
+1x Daretti, Scrap Savant
+1x Koth of the Hammer
+1x Chandra, Flamecaller
+
+Red Instant
+1x Burst Lightning
+1x Lightning Bolt
+1x Abrade
+1x Ancient Grudge
+1x Desperate Ritual
+1x Incinerate
+1x Lightning Strike
+1x Magma Jet
+1x Pyretic Ritual
+1x Searing Spear
+1x Char
+1x Seething Song
+1x Through the Breach
+1x Fireblast
+
+Red Sorcery
+1x Chain Lightning
+1x Faithless Looting
+1x Firebolt
+1x Rite of Flame
+1x Mizzium Mortars
+1x Exquisite Firecraft
+1x Rift Bolt
+1x Sweltering Suns
+1x Wheel of Fortune
+1x Empty the Warrens
+1x Fiery Confluence
+1x Burning of Xinye
+1x Wildfire
+1x Bonfire of the Damned
+
+Red Enchantment
+1x Mana Flare
+1x Sulfuric Vortex
+1x Sneak Attack
+1x Splinter Twin
+
+Green Creature
+1x Arbor Elf
+1x Avacyn's Pilgrim
+1x Birds of Paradise
+1x Elves of Deep Shadow
+1x Elvish Mystic
+1x Fyndhorn Elves
+1x Joraga Treespeaker
+1x Llanowar Elves
+1x Noble Hierarch
+1x Den Protector
+1x Fauna Shaman
+1x Lotus Cobra
+1x Rofellos, Llanowar Emissary
+1x Sakura-Tribe Elder
+1x Scavenging Ooze
+1x Sylvan Caryatid
+1x Tarmogoyf
+1x Wall of Blossoms
+1x Wall of Roots
+1x Courser of Kruphix
+1x Eternal Witness
+1x Jadelight Ranger
+1x Manglehorn
+1x Reclamation Sage
+1x Rishkar, Peema Renegade
+1x Thrashing Brontodon
+1x Yavimaya Elder
+1x Master of the Wild Hunt
+1x Oracle of Mul Daya
+1x Polukranos, World Eater
+1x Thrun, the Last Troll
+1x Acidic Slime
+1x Deranged Hermit
+1x Thragtusk
+1x Primeval Titan
+1x Avenger of Zendikar
+1x Craterhoof Behemoth
+1x Terastodon
+1x Woodfall Primus
+
+Green Planeswalker
+1x Garruk Relentless
+1x Garruk Wildspeaker
+1x Freyalise, Llanowar's Fury
+1x Garruk, Primal Hunter
+1x Nissa, Worldwaker
+
+Green Artifact Creature
+1x Verdurous Gearhulk
+
+Green Instant
+1x Nature's Claim
+1x Dissenter's Deliverance
+1x Beast Within
+
+Green Sorcery
+1x Ancient Stirrings
+1x Channel
+1x Regrowth
+1x Search for Tomorrow
+1x Eureka
+1x Harmonize
+1x Natural Order
+1x Primal Command
+1x Green Sun's Zenith
+1x Tooth and Nail
+1x Genesis Wave
+
+Green Enchantment
+1x Fastbond
+1x Oath of Nissa
+1x Oath of Druids
+1x Survival of the Fittest
+1x Sylvan Library
+1x Awakening Zone
+1x Heartbeat of Spring
+1x Song of the Dryads
+
+Green Land
+1x Gaea's Cradle
+
+Azorius
+1x Geist of Saint Traft
+1x Dragonlord Ojutai
+1x Teferi, Hero of Dominaria
+1x Sphinx's Revelation
+1x Supreme Verdict
+1x Celestial Colonnade
+1x Flooded Strand
+1x Hallowed Fountain
+1x Seachrome Coast
+1x Tundra
+
+Dimir
+1x Hostage Taker
+1x The Scarab God
+1x Ashiok, Nightmare Weaver
+1x Tezzeret, Agent of Bolas
+1x Baleful Strix
+1x Creeping Tar Pit
+1x Darkslick Shores
+1x Polluted Delta
+1x Underground Sea
+1x Watery Grave
+
+Rakdos
+1x Olivia Voldaren
+1x Terminate
+1x Kolaghan's Command
+1x Dreadbore
+1x Rakdos's Return
+1x Badlands
+1x Blackcleave Cliffs
+1x Blood Crypt
+1x Bloodstained Mire
+1x Lavaclaw Reaches
+
+Gruul
+1x Bloodbraid Elf
+1x Huntmaster of the Fells
+1x Dragonlord Atarka
+1x Xenagos, the Reveler
+1x Copperline Gorge
+1x Raging Ravine
+1x Stomping Ground
+1x Taiga
+1x Wooded Foothills
+
+Selesnya
+1x Qasali Pridemage
+1x Voice of Resurgence
+1x Kitchen Finks
+1x Dragonlord Dromoka
+1x Mirari's Wake
+1x Razorverge Thicket
+1x Savannah
+1x Stirring Wildwood
+1x Temple Garden
+1x Windswept Heath
+
+Orzhov
+1x Tidehollow Sculler
+1x Anguished Unmaking
+1x Vindicate
+1x Concealed Courtyard
+1x Godless Shrine
+1x Marsh Flats
+1x Scrubland
+1x Shambling Vent
+
+Golgari
+1x Deathrite Shaman
+1x Vraska, Relic Seeker
+1x Abrupt Decay
+1x Maelstrom Pulse
+1x Pernicious Deed
+1x Bayou
+1x Blooming Marsh
+1x Hissing Quagmire
+1x Overgrown Tomb
+1x Verdant Catacombs
+
+Simic
+1x Edric, Spymaster of Trest
+1x Trygon Predator
+1x Mystic Snake
+1x Shardless Agent
+1x Bring to Light
+1x Botanical Sanctum
+1x Breeding Pool
+1x Lumbering Falls
+1x Misty Rainforest
+1x Tropical Island
+
+Izzet
+1x Jhoira, Weatherlight Captain
+1x Dack Fayden
+1x Fire // Ice
+1x Izzet Charm
+1x Electrolyze
+1x Scalding Tarn
+1x Spirebluff Canal
+1x Steam Vents
+1x Volcanic Island
+1x Wandering Fumarole
+
+Boros
+1x Figure of Destiny
+1x Ajani Vengeant
+1x Nahiri, the Harbinger
+1x Wear // Tear
+1x Lightning Helix
+1x Arid Mesa
+1x Inspiring Vantage
+1x Needle Spires
+1x Plateau
+1x Sacred Foundry
+
+Esper
+1x Sphinx of the Steel Wind
+
+Grixis
+1x Nicol Bolas, Planeswalker
+
+Sultai
+1x Leovold, Emissary of Trest
+
+Rainbow
+1x Progenitus
+
+Colourless Creature
+1x Kozilek, Butcher of Truth
+1x Ulamog, the Ceaseless Hunger
+1x Ulamog, the Infinite Gyre
+1x Emrakul, the Promised End
+1x Emrakul, the Aeons Torn
+
+Colourless Planeswalker
+1x Karn, Scion of Urza
+1x Karn Liberated
+1x Ugin, the Spirit Dragon
+
+Colourless Artifact Creature
+1x Hangarback Walker
+1x Phyrexian Revoker
+1x Spellskite
+1x Metalworker
+1x Lodestone Golem
+1x Solemn Simulacrum
+1x Kuldotha Forgemaster
+1x Duplicant
+1x Wurmcoil Engine
+1x Myr Battlesphere
+1x Sundering Titan
+1x Walking Ballista
+1x Blightsteel Colossus
+
+Colourless Artifact
+1x Black Lotus
+1x Chrome Mox
+1x Everflowing Chalice
+1x Lion's Eye Diamond
+1x Lotus Bloom
+1x Lotus Petal
+1x Mana Crypt
+1x Mox Diamond
+1x Mox Emerald
+1x Mox Jet
+1x Mox Pearl
+1x Mox Ruby
+1x Mox Sapphire
+1x Mana Vault
+1x Sensei's Divining Top
+1x Skullclamp
+1x Sol Ring
+1x Azorius Signet
+1x Boros Signet
+1x Dimir Signet
+1x Golgari Signet
+1x Grim Monolith
+1x Gruul Signet
+1x Izzet Signet
+1x Lightning Greaves
+1x Orzhov Signet
+1x Pentad Prism
+1x Rakdos Signet
+1x Selesnya Signet
+1x Shrine of Burning Rage
+1x Simic Signet
+1x Smuggler's Copter
+1x Sorcerous Spyglass
+1x Umezawa's Jitte
+1x Winter Orb
+1x Basalt Monolith
+1x Coalition Relic
+1x Crucible of Worlds
+1x Sword of Body and Mind
+1x Sword of Feast and Famine
+1x Sword of Fire and Ice
+1x Sword of Light and Shadow
+1x Sword of War and Peace
+1x Tangle Wire
+1x Vedalken Shackles
+1x Worn Powerstone
+1x Coercive Portal
+1x Nevinyrral's Disk
+1x Smokestack
+1x Thran Dynamo
+1x Batterskull
+1x Gilded Lotus
+1x Memory Jar
+1x Mindslaver
+
+Colourless Land
+1x Academy Ruins
+1x Ancient Tomb
+1x Bazaar of Baghdad
+1x Field of Ruin
+1x Library of Alexandria
+1x Mana Confluence
+1x Maze of Ith
+1x Mishra's Factory
+1x Mishra's Workshop
+1x Mutavault
+1x Nykthos, Shrine to Nyx
+1x Rishadan Port
+1x Strip Mine
+1x Wasteland
+[/DECK]
