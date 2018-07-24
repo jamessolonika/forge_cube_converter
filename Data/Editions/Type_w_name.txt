@@ -1,0 +1,14 @@
+Error in:  Commander's Arsenal.txt
+Length:  10 
+
+
+Starter   Portal: Second Age
+Expansion   Fifth Dawn
+Other   Unstable
+Duel_Decks   Duel Decks: Mirrodin Pure vs. New Phyrexia
+From_the_Vault   From the Vault: Exiled
+Online   Masters Edition IV
+Reprint   Modern Masters 2015
+Core   Seventh Edition
+other   Modern Event Deck
+Premium_Deck_Series   Premium Deck Series: Slivers
