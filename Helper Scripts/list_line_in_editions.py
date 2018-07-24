@@ -1,7 +1,7 @@
 import re
 import os
 
-search_for="Date="
+search_for="Type="
 forge_path="/Applications/forge-gui-desktop-1.6.11/res/editions/"
 
 

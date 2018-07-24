@@ -1,4 +1,5 @@
-Length:  194 
+Error in:  Commander's Arsenal.txt
+Length:  10 
 
 
-['10E', '2ED', '3ED', '4ED', '5DN', '5ED', '6ED', '7ED', '8ED', '9ED', 'A25', 'AER', 'AKH', 'ALA', 'ALL', 'APC', 'ARB', 'ARC', 'ARENA', 'ARN', 'ATH', 'ATQ', 'AVR', 'BBD', 'BFZ', 'BNG', 'BOK', 'BRB', 'BTD', 'C13', 'C14', 'C15', 'C16', 'C17', 'CFX', 'CHK', 'CHR', 'CM1', 'CMA', 'CN2', 'CNS', 'COM', 'CSP', 'DD2', 'DDC', 'DDD', 'DDE', 'DDF', 'DDG', 'DDH', 'DDI', 'DDJ', 'DDK', 'DDL', 'DDM', 'DDN', 'DDO', 'DDP', 'DDQ', 'DDR', 'DDS', 'DDT', 'DDU', 'DGM', 'DIS', 'DKA', 'DKM', 'DOM', 'DPA', 'DRB', 'DRC94', 'DRK', 'DST', 'DTK', 'E01', 'E02', 'EMA', 'EMN', 'EVE', 'EVG', 'EXO', 'EXP', 'FEM', 'FRF', 'FS', 'FUT', 'FVE', 'FVL', 'FVR', 'GPT', 'GTC', 'HML', 'HOP', 'HOU', 'ICE', 'IMA', 'INV', 'ISD', 'JOU', 'JUD', 'KLD', 'KTK', 'LEA', 'LEB', 'LEG', 'LGN', 'LRW', 'M10', 'M11', 'M12', 'M13', 'M14', 'M15', 'MBP', 'MBS', 'MD1', 'ME2', 'ME3', 'ME4', 'MED', 'MIR', 'MM2', 'MM3', 'MMA', 'MMQ', 'MOR', 'MPS_AKH', 'MPS_KLD', 'MRD', 'NMS', 'NPH', 'ODY', 'OGW', 'ONS', 'ORI', 'PC2', 'PCA', 'PCY', 'PD2', 'PD3', 'PDS', 'PLC', 'PLS', 'PO2', 'POR', 'PTK', 'PZ1', 'PZ2', 'RAV', 'RIX', 'ROE', 'RTR', 'S00', 'S99', 'SCG', 'SHC', 'SHM', 'SOI', 'SOK', 'SOM', 'SS1', 'STH', 'TD0', 'TD1', 'TD2', 'THS', 'TMP', 'TOR', 'TPR', 'TSB', 'TSP', 'UDS', 'UGF', 'UGL', 'ULG', 'UNH', 'USG', 'UST', 'V12', 'V13', 'V14', 'V15', 'V16', 'V17', 'VAN', 'VIS', 'VMA', 'W16', 'W17', 'WTH', 'WW', 'WWK', 'XLN', 'ZEN']
+['Core', 'Duel_Decks', 'Expansion', 'From_the_Vault', 'Online', 'Other', 'Premium_Deck_Series', 'Reprint', 'Starter', 'other']
